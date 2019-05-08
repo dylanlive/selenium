@@ -101,6 +101,7 @@ public class EdgeDriverService extends DriverService{
         argsBuilder.add("--verbose");
       }
 
+      argsBuilder.add("--jwp");
       return argsBuilder.build();
     }
 
