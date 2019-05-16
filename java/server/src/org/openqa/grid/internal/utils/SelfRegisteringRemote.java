@@ -96,7 +96,7 @@ public class SelfRegisteringRemote {
   public URL getRemoteURL() {
     String host = registrationRequest.getConfiguration().host;
     Integer port = registrationRequest.getConfiguration().port;
-    String url = "http://" + host + ":" + port;
+    String url = "https://" + host + ":" + port;
 
     try {
       return new URL(url);

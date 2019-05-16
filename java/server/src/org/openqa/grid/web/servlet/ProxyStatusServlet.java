@@ -102,7 +102,7 @@ public class ProxyStatusServlet extends RegistryBasedServlet {
 
     try {
       URL u = new URL(id);
-      id = "http://" + u.getHost() + ":" + u.getPort();
+      id = "https://" + u.getHost() + ":" + u.getPort();
     } catch (MalformedURLException ignore) {
       // Fall through
     }
